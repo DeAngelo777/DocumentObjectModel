@@ -8,10 +8,32 @@
     <title>DOM Intro</title>
   </head>
   <body>
-    <div id="main">
-      <h1>DOM INTRO</h1>
-      <a href="https:www.vipweb.lt">VipWeb</a>
-    </div>
+    <header>
+      <img
+        src="./images/png-transparent-shopping-list-drop-up-grocery-store-computer-icons-cinnamon-miscellaneous-user-interface-design-grocery-store-thumbnail.png"
+        alt=""
+      />
+      <h1 id="app-title" class="hello">Shopping List</h1>
+    </header>
+
+    <form method="post" id="item-form">
+      <div class="form-control">
+        <input
+          type="text"
+          class="form-input"
+          id="item-input"
+          name="item"
+          placeholder="Enter Item"
+        />
+      </div>
+      <div class="form-control">
+        <button type="submit" class="btn">
+          <i class="fa-solid fa-plus">Add item</i>
+        </button>
+        <a href="https:www.vipweb.lt">VipWeb</a>
+      </div>
+    </form>
+    <div id="main"></div>
   </body>
 
   <script src="./script.js"></script>

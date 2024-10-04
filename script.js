@@ -1,19 +1,13 @@
-// console.log(window);
-console.dir(window.document);
+// querySelectorAll();
 
-console.log(document.body.innerHTML);
+console.log(document.getElementById('app-title'));
+console.log(document.getElementById('app-title').id);
+console.log(document.getElementById('app-title').className);
+console.log(document.getElementById('app-title').getAttribute);
+console.log(document.getElementById('app-title').
+getAttribute('id'));
 
-console.log(document.links[0]);
 
-// Pakeicia visa body teksta
-// document.body.innerHTML = '<h1>Hello World</h1>'
+// Set atributes
 
-
-//Prideda pabaigoje teksta
-// document.write('Hello from JS')
-
-console.log(document.getElementById('main'));
-const main = document.getElementById('main');
-// main.innerHTML = '<h1>Hello from main </h1>';
-
-document.querySelector('#main h1').innerText = 'Hello From JS';
+document.getElementById('app-title').title = 'Shopping-LIst';
